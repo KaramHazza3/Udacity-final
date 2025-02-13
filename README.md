@@ -26,20 +26,15 @@ The Travel Planner App is a web application that allows users to plan their trip
 ## Installation
 1. **Clone the Repository**
     ```bash
-    git clone 
-    ```
-    
-2. **Navigate to the Project Directory**
+    git clone https://github.com/KaramHazza3/Udacity-final.git
+    ```   
+
+2. **Switch to the `master` Branch**
     ```bash
-    cd udacity
+    git checkout master
     ```
 
-3. **Switch to the `FEND-Capstone---Travel-App` Branch**
-    ```bash
-    git checkout FEND-Capstone---Travel-App
-    ```
-
-4. **Install Dependencies**
+3. **Install Dependencies**
     Install all the required dependencies using npm:
     ```bash
     npm install
@@ -69,3 +64,8 @@ The Travel Planner App is a web application that allows users to plan their trip
     ```
 ## Contributing
 - If you would like to contribute to this project, please fork the repository and create a pull request with your changes.
+
+## Node.js Version
+This project requires **Node.js v18 or later**. Ensure you have the correct version installed by running:
+```bash
+node -v
