@@ -39,6 +39,7 @@ The Travel Planner App is a web application that allows users to plan their trip
     ```bash
     npm install
     ```
+
 ## Running the Application
 
 1. **Start the Development Server**
@@ -53,7 +54,7 @@ The Travel Planner App is a web application that allows users to plan their trip
     ```bash
     npm run build-prod
     ```
-    This will create a `dist` folder with your production ready application.
+    This will create a `dist` folder with your production-ready application.
 3. **Start the server**
     ```bash
     npm run start
@@ -62,10 +63,17 @@ The Travel Planner App is a web application that allows users to plan their trip
     ```bash
     http://localhost:1000/
     ```
+
 ## Contributing
 - If you would like to contribute to this project, please fork the repository and create a pull request with your changes.
+
+## Troubleshooting
+- Issue with API keys: Ensure you have valid API keys for GeoNames, Pixabay, and Weatherbit, and that they are correctly set in your environment variables or configuration files.
+- Server not starting: Verify that Node.js is correctly installed, and check the terminal for any error messages that could indicate missing dependencies or configuration issues.
 
 ## Node.js Version
 This project requires **Node.js v18 or later**. Ensure you have the correct version installed by running:
 ```bash
 node -v
+```
+
