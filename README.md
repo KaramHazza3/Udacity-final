@@ -40,6 +40,16 @@ The Travel Planner App is a web application that allows users to plan their trip
     npm install
     ```
 
+4. **Ensure Environment Variables are Set**
+    Create a `.env` file in the root directory and add the following environment variables:
+    ```bash
+    PORT=1000
+    GEONAMES_USERNAME=your_geonames_username
+    PIXABAY_API_KEY=your_pixabay_api_key
+    WEATHERBIT_API_KEY=your_weatherbit_api_key
+    ```
+    Replace `your_geonames_username`, `your_pixabay_api_key`, and `your_weatherbit_api_key` with your actual API credentials.
+
 ## Running the Application
 
 1. **Start the Development Server**
@@ -55,10 +65,12 @@ The Travel Planner App is a web application that allows users to plan their trip
     npm run build-prod
     ```
     This will create a `dist` folder with your production-ready application.
+
 3. **Start the server**
     ```bash
     npm run start
     ```
+
 4. **Open your browser and go to**
     ```bash
     http://localhost:1000/
@@ -68,8 +80,9 @@ The Travel Planner App is a web application that allows users to plan their trip
 - If you would like to contribute to this project, please fork the repository and create a pull request with your changes.
 
 ## Troubleshooting
-- Issue with API keys: Ensure you have valid API keys for GeoNames, Pixabay, and Weatherbit, and that they are correctly set in your environment variables or configuration files.
-- Server not starting: Verify that Node.js is correctly installed, and check the terminal for any error messages that could indicate missing dependencies or configuration issues.
+- **Issue with API keys**: Ensure you have valid API keys for GeoNames, Pixabay, and Weatherbit, and that they are correctly set in your `.env` file.
+- **Server not starting**: Verify that Node.js is correctly installed, and check the terminal for any error messages that could indicate missing dependencies or configuration issues.
+- **Missing .env file**: Ensure the `.env` file exists and contains all required environment variables.
 
 ## Node.js Version
 This project requires **Node.js v18 or later**. Ensure you have the correct version installed by running:
